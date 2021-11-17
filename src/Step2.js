@@ -56,6 +56,7 @@ function Step2(props) {
     const [phone, setphone] = useState("");
     const [phno, setPhno] = useState("");
     const [otpp, setotpp] = useState("");
+    // const [nisarg, setnisarg] = useState("");
 
     if (props.isotp === false) {
         return (
@@ -64,7 +65,7 @@ function Step2(props) {
                 <h6>We will add you to our community whattsapp and telegram</h6>
 
                 <div className="textbox">
-                    {/* <TextField sx={{ width: '10%', paddingRight: '2rem' }} label="Code" id="filled-basic" value="+91" variant="filled" InputProps={{ disableUnderline: true }} /> */}
+
                     <TextField
                         sx={{ width: '100%' }} id="filled-basic"
                         label="Please enter your mobile number" variant="filled"
